@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Katravath Rajendar" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Katravath Rajendar">Katravath Rajendar</h1>
+
+          <p class="title">Data Scientist Freelancer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">katravathrajendar18@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91-7671959015</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 18, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Hyderabad, Telangana, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/rajendar-katravath-461b39216/" class="social-link">
+              <ion-icon name="logo-Linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Rajendarkatravath" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://medium.com/@katravathrajendar18" class="social-link">
+              <ion-icon name="logo-Medium"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a Data Science and AI Specialist with a strong focus on transforming complex datasets into actionable insights for businesses across various industries. My expertise spans Machine Learning, Deep Learning, Generative AI, Natural Language Processing (NLP), and MLOps, with a proven track record of delivering data-driven solutions that drive growth and innovation.
+
+What sets me apart is my ability to blend technical proficiency with strategic thinking, ensuring that every project aligns with business objectives. I excel in creating predictive models, intelligent algorithms, generative AI applications, and dynamic visualizations using tools like Python, TensorFlow, and Power BI.
+
+I am passionate about leveraging AI, including the latest advancements in Generative AI, to solve real-world problems and help companies stay ahead of the curve. Whether you're looking to enhance your data strategy, optimize processes, or gain a competitive edge, I bring a collaborative approach and a commitment to delivering excellence.
+
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service"></section>
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/Business Analysis.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analysis</h4>
+
+                <p class="service-item-text">
+                    I specialize in turning raw data into actionable insights through exploration, statistical analysis, and visualization. Using tools like Power BI and Python, I create clear, impactful reports and predictive models to drive data-driven decisions and strategies.
+
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-machine-learning-50.png" alt="Machine learning icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                  I harness the power of machine learning to create intelligent solutions and predictive models. By employing techniques such as supervised and unsupervised learning, and utilizing frameworks like TensorFlow and Hugging Face, I transform data into valuable insights and drive impactful decision-making.
+
+
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-opencv-50.png" alt="deep learning  icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Deep Learning</h4>
+
+                <p class="service-item-text">
+                  I specialize in deep learning, leveraging neural networks to tackle complex problems and uncover intricate patterns in data. Using advanced architectures like CNNs, RNNs, and tools such as TensorFlow, I build and train models that excel in tasks like image recognition, natural language processing, and predictive analytics.
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-language-50.png" alt="nlp  icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">NLP</h4>
+
+                <p class="service-item-text">
+                  I focus on Natural Language Processing (NLP) to enable machines to understand and interact with human language. By utilizing advanced techniques and libraries like Hugging Face and BERT, I develop models for tasks such as sentiment analysis, named entity recognition, and language generation, transforming text data into actionable insights.
+
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-chatgpt-50.png" alt="Gen ai icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Gen ai</h4>
+
+                <p class="service-item-text">
+                  I specialize in generative AI, creating models that can produce new and innovative content, from text and images to music and more. Using advanced techniques like GPT and GANs, I build systems that mimic human creativity, enabling applications in content creation, virtual assistants, and personalized user experiences.
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+       
+        
+        <!-- button to navigate-->
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+        </div>
+      </article>
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Osmaina University</h4>
+
+              <span>2019 — 2022</span>
+
+              <p class="timeline-text">
+                Bachelor's Degree in Computer Applications (BCA)<br>
+                Osmania University | Hyderabad, India
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Machine learning Engineer</h4>
+              <span>Omdena | Remote</span>
+              <span>2024 April — Present</span>
+            
+              <p class="timeline-text">
+                Led machine learning projects from data collection to model deployment, focusing on<br>
+                AI-powered applications such as document processing systems and economic analysis dashboards.
+                Utilized tools like Streamlit, LangChain, FAISS, and Hugging Face for efficient solutions.<br>
+                Implemented algorithms, performed feature engineering, model validation, and<br>
+                leveraged GPU support for high-performance applications.
+                Collaborated with cross-functional teams, documented workflows, and communicated<br>
+                insights to stakeholders.<br>
+               Stayed updated with the latest AI advancements to drive innovation and success.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Machine learning intern</h4>
+              <span>iNeuron.ai | Bangalore, India</span>
+              <span>January 2024 – February 2024</span>
+
+              <p class="timeline-text">
+                Worked on data science projects involving data preprocessing, feature engineering,
+                and model building.<br>
+                Developed machine learning models to solve real-world problems and collaborated 
+                with team members to deliver high-quality solutions.
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Analyst Intern</h4>
+              <span>TechnoHacks | Nashik, India</span>
+              <span>October 2023 – November 2023</span>
+
+              <p class="timeline-text">
+                Analyzed datasets to derive actionable insights for business improvement.<br>
+                Created reports and dashboards to visualize data trends and patterns using Power BI and Excel.<br>
+                Utilized SQL for data manipulation and querying.<br>
+
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          
+          <ul class="skills-list content-card">
+            
+            <li class="skills-item">
+              <h5 class="h5">Programming Languages:</h5>
+              <div class="badges-container">
+                <img src="https://img.shields.io/badge/-Python-333?style=flat&logo=python" alt="Python">
+                <img src="https://img.shields.io/badge/-R-276DC3?style=flat&logo=r" alt="R">
+                <img src="https://img.shields.io/badge/-Java-007396?style=flat&logo=java" alt="Java">
+              </div>
+            </li>
+            
+            <li class="skills-item">
+              <h5 class="h5">Machine Learning & Deep Learning:</h5>
+              <div class="badges-container">
+                <img src="https://img.shields.io/badge/-Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" alt="Scikit-learn">
+                <img src="https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white" alt="OpenCV">
+                <img src="https://img.shields.io/badge/-Roboflow-000000?style=flat&logo=roboflow&logoColor=white" alt="Roboflow">
+                <img src="https://img.shields.io/badge/-NumPy-013243?style=flat&logo=numpy" alt="NumPy">
+                <img src="https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas" alt="Pandas">
+                <img src="https://img.shields.io/badge/-Seaborn-333?style=flat&logo=seaborn" alt="Seaborn">
+                <img src="https://img.shields.io/badge/-Matplotlib-333?style=flat&logo=matplotlib" alt="Matplotlib">
+                <img src="https://img.shields.io/badge/-Plotly-239120?style=flat&logo=plotly" alt="Plotly">
+                <img src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow" alt="TensorFlow">
+                <img src="https://img.shields.io/badge/-Keras-D00000?style=flat&logo=keras" alt="Keras">
+                <img src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=pytorch" alt="PyTorch">
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <h5 class="h5">LLM Frameworks:</h5>
+              <div class="badges-container">
+                <img src="https://img.shields.io/badge/-LangChain-333?style=flat&logo=langchain" alt="LangChain">
+                <img src="https://img.shields.io/badge/-LlamaIndex-FF6F00?style=flat&logo=llama" alt="LlamaIndex">
+                <img src="https://img.shields.io/badge/-Groq-333?style=flat&logo=groq" alt="Groq">
+                <img src="https://img.shields.io/badge/-OpenAI-333?style=flat&logo=openai" alt="OpenAI">
+                <img src="https://img.shields.io/badge/-Gemma-FF6F00?style=flat&logo=gemma" alt="Gemma">
+                <img src="https://img.shields.io/badge/-NVIDIA-76B900?style=flat&logo=nvidia" alt="NVIDIA">
+                <img src="https://img.shields.io/badge/-LLaMA-333?style=flat&logo=llama" alt="LLaMA">
+                <img src="https://img.shields.io/badge/-Mistral-333?style=flat&logo=mistral" alt="Mistral">
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <h5 class="h5">Natural Language Processing:</h5>
+              <div class="badges-container">
+                <img src="https://img.shields.io/badge/-Hugging%20Face-FF9900?style=flat&logo=hugging-face" alt="Hugging Face">
+                <img src="https://img.shields.io/badge/-spaCy-09A3D5?style=flat&logo=spacy" alt="spaCy">
+                <img src="https://img.shields.io/badge/-NLTK-007396?style=flat&logo=python" alt="NLTK">
+                <img src="https://img.shields.io/badge/-Rasa-5B8DEE?style=flat&logo=rasa" alt="Rasa">
+                <img src="https://img.shields.io/badge/-Dialogflow-FF9800?style=flat&logo=dialogflow" alt="Dialogflow">
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <h5 class="h5">MLOps:</h5>
+              <div class="badges-container">
+                <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker" alt="Docker">
+                <img src="https://img.shields.io/badge/-Heroku-430098?style=flat&logo=heroku" alt="Heroku">
+                <img src="https://img.shields.io/badge/-Google%20Cloud-4285F4?style=flat&logo=google-cloud" alt="Google Cloud">
+                <img src="https://img.shields.io/badge/-Amazon%20AWS-232F3E?style=flat&logo=amazon-aws" alt="AWS">
+                <img src="https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit" alt="Streamlit">
+                <img src="https://img.shields.io/badge/-Flask-333?style=flat&logo=flask" alt="Flask">
+                <img src="https://img.shields.io/badge/-Django-092E20?style=flat&logo=django" alt="Django">
+                <img src="https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi" alt="FastAPI">
+                <img src="https://img.shields.io/badge/-DagsHub-3367D6?style=flat&logo=dagshub" alt="DagsHub">
+                <img src="https://img.shields.io/badge/-Git-F05032?style=flat&logo=git" alt="Git">
+                <img src="https://img.shields.io/badge/-Airflow-017CEE?style=flat&logo=apache-airflow" alt="Airflow">
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <h5 class="h5">Data Management:</h5>
+              <div class="badges-container">
+                <img src="https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=mysql" alt="SQL">
+                <img src="https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql" alt="PostgreSQL">
+                <img src="https://img.shields.io/badge/-FAISS-333?style=flat&logo=faiss" alt="FAISS">
+              </div>
+            </li>
+        
+            <li class="skills-item">
+              <h5 class="h5">Visualization:</h5>
+              <div class="badges-container">
+                <img src="https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=powerbi" alt="Power BI">
+                <img src="https://img.shields.io/badge/-Excel-217346?style=flat&logo=microsoft-excel" alt="Excel">
+              </div>
+            </li>
+            
+          </ul>
+        </section>
+        
+
+          <!--
+          skills-->
+         
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>power bi</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>machine learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>deep learning</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>nlp</button>
+            </li>
+            
+            <li class="filter-item">
+              <button data-filter-btn>gen ai</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>web scraping</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>power bi</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>machine learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>deep learning</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>nlp</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>gen ai</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>web scraping</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="power bi">
+              <a href="https://app.powerbi.com/groups/me/reports/65e69d95-8d54-4895-94a9-6b51d7753cce/ReportSection?experience=power-bi">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/powerbi_dashboard.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mitron dashboard</h3>
+
+                <p class="project-category">power bi</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/Rajendarkatravath/Mushroom_classification_end_end_datascience_project">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/mushroom_image .jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mushroom Classification</h3>
+
+                <p class="project-category">Machine learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="deep learning">
+              <a href="https://github.com/Rajendarkatravath/object_detection_project">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/traffic2.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Object Detection</h3>
+
+                <p class="project-category">Deep Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="nlp">
+              <a href="https://github.com/Rajendarkatravath/Name_entity_recognition">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/name_entity_image.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Name_Enitity_Recognition</h3>
+
+                <p class="project-category">NLP</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="gen ai">
+              <a href="https://github.com/Rajendarkatravath/AI-Powered-Research-Assistant">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ai_powerded_research.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AI-Powered-Research-Assistant</h3>
+
+                <p class="project-category">Gen Ai</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web scraping">
+              <a href="https://github.com/Rajendarkatravath/Amazon_laptops_scraping">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/amazonwebscraping_image.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Amazon_laptops_scraping</h3>
+
+                <p class="project-category">Web scraping</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="deep learning">
+              <a href="https://github.com/Rajendarkatravath/-E_commerce-Product-Image-Classification">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/e-commerce.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">E_commerce-Product-Image-Classification</h3>
+
+                <p class="project-category">Deep Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="gen ai">
+              <a href="https://github.com/Rajendarkatravath/AI-Driven-Health-and-Wellness-Coach">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ai-driven_image.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AI-Driven-Health-and-Wellness-Coach</h3>
+
+                <p class="project-category">Gen Ai</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/Rajendarkatravath/Regression---Retail-Sales-Prediction">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/retail_sales_regression.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Retail-Sales-Prediction</h3>
+
+                <p class="project-category">Machine learning</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@katravathrajendar18/ai-for-social-good-tackling-global-issues-with-machine-learning-0e4612d92eb5">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/ai_good-image.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">AI for Social Good: Tackling Global Issues with Machine Learning</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@katravathrajendar18/generative-ai-beyond-art-how-its-reshaping-business-science-and-everyday-life-3484d37505b2">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/ai_business-iamge.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Generative AI Beyond Art: How It’s Reshaping Business, Science, and Everyday Life</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
